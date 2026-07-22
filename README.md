@@ -33,6 +33,9 @@ projects, render output, and settings are never touched by this.
   whatever makes sense to you), separate from how they're organized on disk.
 - **Shared asset library** — materials, HDRIs, models, and rigs
   cross-referenced against which of your projects actually use them.
+- **Finds and fixes broken file references** — spot missing linked textures
+  or libraries per project, and relink them straight from the app once
+  you've tracked the file back down.
 - **Task boards & notes** — a lightweight checklist and review-note thread
   per project.
 - **Trash with recovery** — projects are never deleted outright; restore
@@ -42,6 +45,10 @@ projects, render output, and settings are never touched by this.
 
 Actively developed, pre-1.0 — expect rough edges, and expect things to
 keep changing between releases.
+
+## Contact
+
+Questions or feedback? Reach out to **oldmike** on Discord.
 
 ## License
 
