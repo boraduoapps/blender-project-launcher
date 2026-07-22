@@ -5,11 +5,12 @@ your local `.blend` files, remembers which Blender version each project was
 saved with, launches the right one automatically, and gives you a render
 queue and shared asset library without any setup.
 
-Windows, portable build — no installer, just download and run.
+Windows, no installer — download the zip, extract it, and run.
 
 ## Download
 
-Grab the latest build from the [Releases page](https://github.com/boraduoapps/blender-project-launcher/releases).
+Grab the latest build from the [Releases page](https://github.com/boraduoapps/blender-project-launcher/releases),
+extract the zip, and run `Blender Project Launcher.exe` from inside it.
 
 This is a preview build: it works fully offline with no account needed, but
 it stops launching **48 hours after install** so you're always running
