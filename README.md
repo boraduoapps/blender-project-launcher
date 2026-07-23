@@ -13,9 +13,11 @@ Grab the latest build from the [Releases page](https://github.com/boraduoapps/bl
 extract the zip, and run `Blender Project Launcher.exe` from inside it.
 
 This is a preview build: it works fully offline with no account needed, but
-it stops launching **48 hours after install** so you're always running
-something current — just download the newest release to keep going. Your
-projects, render output, and settings are never touched by this.
+it stops letting you create, edit, or render anything **48 hours after
+install** so you're always running something current — a read-only view of
+your projects (and any render still finishing) stays available even after
+that. Just download the newest release to keep going. Your projects, render
+output, and settings are never touched by this.
 
 ## What it does
 
@@ -26,18 +28,23 @@ projects, render output, and settings are never touched by this.
 - **Always opens the right Blender version** — no more guessing which
   install a file needs, or accidentally re-saving it in the wrong one.
 - **Background render queue** — queue up renders with live progress and
-  ETA, and keep working while they run.
+  ETA, keep working while they run, and step through several finished
+  outputs in sequence with a built-in dailies viewer.
 - **Version Snapshots** — one-click save points for a project's history,
-  with no git knowledge required.
+  with no git knowledge required, plus the option to flag a specific
+  snapshot as a milestone worth coming back to.
 - **Collections** — group projects together by hand (a client, a shot list,
   whatever makes sense to you), separate from how they're organized on disk.
 - **Shared asset library** — materials, HDRIs, models, and rigs
   cross-referenced against which of your projects actually use them.
 - **Finds and fixes broken file references** — spot missing linked textures
-  or libraries per project, and relink them straight from the app once
-  you've tracked the file back down.
+  or libraries per project (including files that are just an undownloaded
+  OneDrive placeholder, not actually broken) and relink them straight from
+  the app once you've tracked the file back down.
 - **Task boards & notes** — a lightweight checklist and review-note thread
-  per project.
+  per project, with a status badge per task.
+- **Quick turntable previews** — spin a project's geometry around on demand
+  without opening Blender, right from its project page.
 - **Trash with recovery** — projects are never deleted outright; restore
   anything removed by mistake.
 
