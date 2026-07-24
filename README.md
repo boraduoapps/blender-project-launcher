@@ -27,16 +27,25 @@ output, and settings are never touched by this.
   folder even through nested subfolders.
 - **Always opens the right Blender version** — no more guessing which
   install a file needs, or accidentally re-saving it in the wrong one.
-- **Background render queue** — queue up renders with live progress and
-  ETA, keep working while they run, and step through several finished
-  outputs in sequence with a built-in dailies viewer.
+- **Background render queue** — queue up renders (including a real,
+  queueable 360° Orbit option) with live progress and ETA, keep working
+  while they run, and step through several finished outputs in sequence
+  with a built-in dailies viewer.
 - **Version Snapshots** — one-click save points for a project's history,
-  with no git knowledge required, plus the option to flag a specific
-  snapshot as a milestone worth coming back to.
+  with no git knowledge required, the option to flag a specific snapshot
+  as a milestone worth coming back to, and revert to any past snapshot
+  when you need to.
 - **Collections** — group projects together by hand (a client, a shot list,
   whatever makes sense to you), separate from how they're organized on disk.
+- **Produced assets, automatically** — renders, packed textures, and
+  snapshot previews your projects generate show up as real assets, linked
+  back to the project that made them, right alongside your shared asset
+  library.
 - **Shared asset library** — materials, HDRIs, models, and rigs
   cross-referenced against which of your projects actually use them.
+- **Duplicate detection** — flags projects that share an exact name
+  elsewhere, with an on-demand deep scan to confirm true byte-for-byte
+  duplicates and a one-click way to keep one copy and discard the rest.
 - **Finds and fixes broken file references** — spot missing linked textures
   or libraries per project (including files that are just an undownloaded
   OneDrive placeholder, not actually broken) and relink them straight from
